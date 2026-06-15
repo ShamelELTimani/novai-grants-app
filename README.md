@@ -401,10 +401,4 @@ With one more week, I would improve the project by adding:
 * deployment setup
 * better UI polish and mobile testing
 
----
 
-## 11. Notes
-
-The app was designed so that filtering, searching, sorting, and pagination happen in the API/database layer.
-
-This is important because loading all grants into the browser might work with 1,500 rows, but it would not scale well with 150,000 rows.
